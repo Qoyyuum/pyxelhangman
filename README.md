@@ -50,6 +50,10 @@ uv run pyxel play .\pyxelhangman.pyxapp  # if packaged
 uv run pyxel package .\src\pyxelhangman .\src\pyxelhangman\main.py
 uv run pyxel play .\pyxelhangman.pyxapp
 ```
+or if not in uv
+```
+python -m pyxel play .\pyxelhangman.pyxapp
+```
 
 ## Package command
 
