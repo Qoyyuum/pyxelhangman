@@ -19,7 +19,17 @@ A retro-style Hangman game built with [Pyxel](https://github.com/kitao/pyxel) an
 
 ## Setup
 
-1. Create and activate venv
+### uv (recommended)
+1. Sync package installs
+   ```powershell
+   uv sync
+   ```
+
+or
+
+### pip
+
+2. Create and activate venv
    ```powershell
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1
@@ -27,9 +37,9 @@ A retro-style Hangman game built with [Pyxel](https://github.com/kitao/pyxel) an
    pip install -e .
    ```
 
-2. Install dependencies manually (optional):
+3. Install dependencies manually (optional):
    ```powershell
-   pip install pyxel
+   pip install -r requirements.txt
    ```
 
 ## Run locally
