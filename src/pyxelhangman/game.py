@@ -1,5 +1,5 @@
 import pyxel
-from .quotes import get_quote
+from quotes import get_quote
 import textwrap
 
 MAX_WIDTH = 26
