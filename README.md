@@ -62,6 +62,14 @@ python -m pyxel play .\pyxelhangman.pyxapp
 - Play bundle:
   `uv run pyxel play .\pyxelhangman.pyxapp`
 
+Or with the bundled file, package it into exe
+
+  `uv run pyxel app2exe .\pyxelhangman.pyxapp`
+
+Then play test the game in exe
+
+  `./pyxelhangman/pyxelhangman.exe`
+
 ## Install as command
 
 After `pip install -e .` you can run:
